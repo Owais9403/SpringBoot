@@ -20,3 +20,10 @@ cd student-management-api
 
 Configure the Database
 Open src/main/resources/application.properties and configure the database connection settings:
+spring.datasource.url=jdbc:mysql://localhost:3306/yourdatabase
+spring.datasource.username=yourusername
+spring.datasource.password=yourpassword
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+
