@@ -17,3 +17,6 @@ Before you begin, ensure you have met the following requirements:
 ```bash
 git clone https://github.com/yourusername/student-management-api.git
 cd student-management-api
+
+Configure the Database
+Open src/main/resources/application.properties and configure the database connection settings:
